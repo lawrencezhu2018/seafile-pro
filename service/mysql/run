@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -eu
+
+exec ./mysql-start.sh
+
+while true; do
+    sleep 10
+done

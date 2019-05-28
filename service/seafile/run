@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+set -eu
+
+exec 2>&1
+exec ./seafile-start.sh

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -eu
+
+exec 2>&1
+exec ./seahub-start.sh
